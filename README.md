@@ -7,7 +7,7 @@ Este repositório contém uma calculadora simples em Bash e Python.
 1. Certifique-se de que o script possui permissão de execução:
    ```bash
    chmod +x calculadora.sh
-2. Execute o script com o comando abaixo:
+2. Execute o script com o comando:
   ./calculadora.sh
 
 ## Como executar o script Python
@@ -18,12 +18,12 @@ Este repositório contém uma calculadora simples em Bash e Python.
 1. Certifique-se de que o script possui permissão de execução:
    ```python
    chmod +x calculadora.py
-2. Execute o script com o comando abaixo:
+2. Execute o script com o comando:
    python3 calculadora.py
 
 ## Explicação código (comments)
 
-###Python:
+##Python:
 
 input() é usado para capturar os valores e a operação. Convertemos os números para float para permitir operações com números decimais.
 Estrutura Condicional:
@@ -40,7 +40,7 @@ O resultado é mostrado usando a função print().
 
 ## Explicação do Código (comments)
 
-###!/bin/bash:
+##!/bin/bash:
 
 Define uma função chamada calculadora que engloba toda a lógica da calculadora.
 echo "Digite o primeiro número:":
