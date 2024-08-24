@@ -12,7 +12,7 @@ Este repositório contém uma calculadora simples em Bash e Python.
 
 ## Como executar o script Python
 
-1. Certifique-se de que o python está instaldo:
+1. Certifique-se de que o python está instalado:
    python3 --version
 
 1. Certifique-se de que o script possui permissão de execução:
