@@ -25,13 +25,16 @@ Este repositório contém uma calculadora simples em Bash e Python.
 
 ##Python:
 
-input() é usado para capturar os valores e a operação. Convertemos os números para float para permitir operações com números decimais.
+##input() 
+é usado para capturar os valores e a operação. Convertemos os números para float para permitir operações com números decimais.
 Estrutura Condicional:
 
 Usamos if, elif, e else para decidir qual operação realizar com base na entrada do usuário.
+
 Tratamento de Erros:
 
 Verificamos se o segundo número é zero ao realizar a divisão, para evitar erros de divisão por zero.
+
 Exibição do Resultado:
 
 O resultado é mostrado usando a função print().
