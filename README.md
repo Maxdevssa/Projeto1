@@ -47,7 +47,7 @@ O resultado é mostrado usando a função print().
 
 Define uma função chamada calculadora que engloba toda a lógica da calculadora.
 
-echo "Digite o primeiro número:":
+*echo "Digite o primeiro número:":
 
 Exibe uma mensagem pedindo ao usuário para inserir o primeiro número.
 
