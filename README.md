@@ -25,11 +25,11 @@ Este repositório contém uma calculadora simples em Bash e Python.
 
 Python:
 
-##input() 
+## input() 
 é usado para capturar os valores e a operação. Convertemos os números para float para permitir operações com números decimais.
 Estrutura Condicional:
 
-Usamos if, elif, e else para decidir qual operação realizar com base na entrada do usuário.
+## Usamos if, elif, e else para decidir qual operação realizar com base na entrada do usuário.
 
 Tratamento de Erros:
 
@@ -37,7 +37,7 @@ Verificamos se o segundo número é zero ao realizar a divisão, para evitar err
 
 Exibição do Resultado:
 
-O resultado é mostrado usando a função print().
+## O resultado é mostrado usando a função print().
 
 
 
@@ -47,30 +47,31 @@ O resultado é mostrado usando a função print().
 
 Define uma função chamada calculadora que engloba toda a lógica da calculadora.
 
-*echo "Digite o primeiro número:":
+## echo "Digite o primeiro número:":
 
 Exibe uma mensagem pedindo ao usuário para inserir o primeiro número.
 
-read num1:
+## read num1:
 
 Lê a entrada do usuário e armazena o valor na variável num1.
-echo "Digite o segundo número:":
+
+## echo "Digite o segundo número:":
 
 Exibe uma mensagem pedindo ao usuário para inserir o segundo número.
 
-read num2:
+## read num2:
 
 Lê a entrada do usuário e armazena o valor na variável num2.
 
-echo "Escolha a operação (+, -, *, /):":
+## echo "Escolha a operação (+, -, *, /):":
 
 Exibe uma mensagem pedindo ao usuário para escolher a operação matemática.
 
-read operacao:
+## read operacao:
 
 Lê a operação escolhida e armazena na variável operacao.
 
-case $operacao in ... esac:
+## case $operacao in ... esac:
 
 Esse bloco implementa a lógica de seleção da operação com o comando case. Dependendo da operação escolhida (+, -, *, /), o script realiza o cálculo correspondente.
 
@@ -79,11 +80,11 @@ Esse bloco implementa a lógica de seleção da operação com o comando case. D
 \*: Multiplicação (a barra invertida é usada para escapar o asterisco).
 /: Divisão, onde o cálculo é feito com scale=2 para exibir duas casas decimais.
 
-resultado=$(echo "$num1 + $num2" | bc):
+## resultado=$(echo "$num1 + $num2" | bc):
 
 Realiza o cálculo usando o comando bc, que é uma calculadora de precisão arbitrária. O resultado é armazenado na variável resultado.
 
-echo "Resultado: $resultado":
+## echo "Resultado: $resultado":
 
 Exibe o resultado final para o usuário.
 
